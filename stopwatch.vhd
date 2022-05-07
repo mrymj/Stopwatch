@@ -147,9 +147,9 @@ begin
             sdram_controller_dqm   => DQM,   --                 .dqm
             sdram_controller_ras_n => DRAM_RAS_N, --                 .ras_n
             sdram_controller_we_n  => DRAM_WE_N,  --                 .we_n
-            key_export             => KEY(3 downto 1)&'1',             --              key.export
+            key_export             => KEY(3 downto 1)&'1',             --       key.export
             ledg_export            => LEDG,           --             ledg.export
-				sw_export              => SW,              --               sw.export
+            sw_export              => SW,              --               sw.export
             ledr_export            => LEDR,            --             ledr.export
             hex_HEX0               => HEX0,               --              hex.HEX0
             hex_HEX1               => HEX1,               --                 .HEX1
